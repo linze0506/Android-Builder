@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi4",
-      "repo": "https://github.com/SonicBSV/android_kernel_xiaomi_markw-4.9",
-      "branch": "master",
-      "device": "markw",
-      "defconfig": "markw_defconfig"
+      "name": "oppor9s",
+      "repo": "https://github.com/linze0506/android_kernel_oppo_r9s",
+      "branch": "caf",
+      "device": "r9s",
+      "defconfig": "r9s_defconfig"
     },
     "toolchains": [
       {
@@ -59,7 +59,7 @@
       "use": true,
       "release": true
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": true
   }
 ]
